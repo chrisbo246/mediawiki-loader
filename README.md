@@ -24,13 +24,14 @@ bower install --save chrisbo246/mediawiki-loader
 Load the **mediawiki-loader.js** script.
 
 ```
-<script src="/bower_components/mediawiki-loader/mediawiki-loader.js" async></script>
+<script src="/bower_components/mediawiki-loader/src/scripts/mediawiki-loader.js" async></script>
 ```
 
-If using SCSS, you can import the **mediawiki-loader.scss** to cleanup the article.
+If using SASS, import the **variables.scss** and **mediawiki-loader.scss** to cleanup the article.
 
 ```
-@import "/bower_components/mediawiki-loader/mediawiki-loader.scss";
+@import "/bower_components/mediawiki-loader/src/styles/variables.scss";
+@import "/bower_components/mediawiki-loader/src/styles/mediawiki-loader.scss";
 ```
 
 ## Usage

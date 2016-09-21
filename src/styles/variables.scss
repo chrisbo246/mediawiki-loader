@@ -1,0 +1,13 @@
+
+$line-height-base:        1.428571429 !default; // 20/14
+$font-size-base:          14px !default;
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+$grid-gutter-width:         30px !default;
+
+$thumbnail-padding:           4px !default;
+$thumbnail-bg:                $body-bg !default;
+$thumbnail-border:            #ddd !default;
+$thumbnail-border-radius:     $border-radius-base !default;
+$thumbnail-caption-color:     $text-color !default;
+$thumbnail-caption-padding:   9px !default;
