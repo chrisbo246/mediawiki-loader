@@ -1,4 +1,5 @@
-# -={ mediawiki-loader }=-
+# -={ mediawiki-loader }=- [DEMO](https://chrisbo246.github.io/mediawiki-loader/)
+
 
 Import a Wikipedia article in your website using the Mediawiki API.
 
