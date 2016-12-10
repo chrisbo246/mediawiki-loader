@@ -49,6 +49,12 @@ If you need an excerpt on the same page without having to make a second request,
 <div class="mediawiki-excerpt"></div>
 ```
 
+Don't forget to insert the required mention to the Wikipedia article.
+
+```
+<div class="mediawiki-mention"></div>
+```
+
 <!--
 
 ## Contributing
