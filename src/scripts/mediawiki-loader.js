@@ -38,7 +38,7 @@ var mediawikiLoader = (function () {
                 'Origin': document.origin || location.origin
                 //'Content-Type': 'application/json; charset=UTF-8'
             },
-            timeout: 5000,
+            //timeout: 5000, // Uncaught ReferenceError: 
             success: function (data, textStatus, jqXHR) {
                 console.log('Mediawiki request', 'done', url);
             },
