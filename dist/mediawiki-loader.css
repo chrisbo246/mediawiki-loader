@@ -1,0 +1,205 @@
+.mediawiki-excerpt,
+.mediawiki-container {
+  /* Hide some sections */
+  /* Wikipedia layout */
+}
+
+.mediawiki-excerpt a[href="#top"],
+.mediawiki-excerpt a[href*="#cite_note-"],
+.mediawiki-excerpt .references,
+.mediawiki-excerpt .Template-Fact,
+.mediawiki-excerpt .mw-editsection,
+.mediawiki-excerpt .hatnote,
+.mediawiki-excerpt .metadata,
+.mediawiki-excerpt .navbox,
+.mediawiki-excerpt .navbox-abovebelow,
+.mediawiki-excerpt .infobox caption,
+.mediawiki-container a[href="#top"],
+.mediawiki-container a[href*="#cite_note-"],
+.mediawiki-container .references,
+.mediawiki-container .Template-Fact,
+.mediawiki-container .mw-editsection,
+.mediawiki-container .hatnote,
+.mediawiki-container .metadata,
+.mediawiki-container .navbox,
+.mediawiki-container .navbox-abovebelow,
+.mediawiki-container .infobox caption {
+  display: none;
+}
+
+.mediawiki-excerpt #siteNotice,
+.mediawiki-excerpt #section_SpokenWikipedia,
+.mediawiki-excerpt #toc,
+.mediawiki-container #siteNotice,
+.mediawiki-container #section_SpokenWikipedia,
+.mediawiki-container #toc {
+  display: none;
+}
+
+.mediawiki-excerpt h2 #External_links,
+.mediawiki-excerpt h2 #Further_reading,
+.mediawiki-excerpt h2 #Citations,
+.mediawiki-excerpt h2 #References,
+.mediawiki-excerpt h2 #Sources, .mediawiki-excerpt h3 #External_links,
+.mediawiki-excerpt h3 #Further_reading,
+.mediawiki-excerpt h3 #Citations,
+.mediawiki-excerpt h3 #References,
+.mediawiki-excerpt h3 #Sources,
+.mediawiki-container h2 #External_links,
+.mediawiki-container h2 #Further_reading,
+.mediawiki-container h2 #Citations,
+.mediawiki-container h2 #References,
+.mediawiki-container h2 #Sources,
+.mediawiki-container h3 #External_links,
+.mediawiki-container h3 #Further_reading,
+.mediawiki-container h3 #Citations,
+.mediawiki-container h3 #References,
+.mediawiki-container h3 #Sources {
+  display: none;
+}
+
+.mediawiki-excerpt h2 #External_links ~ ul,
+.mediawiki-excerpt h2 #External_links ~ ol,
+.mediawiki-excerpt h2 #External_links ~ table,
+.mediawiki-excerpt h2 #External_links ~ div,
+.mediawiki-excerpt h2 #Further_reading ~ ul,
+.mediawiki-excerpt h2 #Further_reading ~ ol,
+.mediawiki-excerpt h2 #Further_reading ~ table,
+.mediawiki-excerpt h2 #Further_reading ~ div,
+.mediawiki-excerpt h2 #Citations ~ ul,
+.mediawiki-excerpt h2 #Citations ~ ol,
+.mediawiki-excerpt h2 #Citations ~ table,
+.mediawiki-excerpt h2 #Citations ~ div,
+.mediawiki-excerpt h2 #References ~ ul,
+.mediawiki-excerpt h2 #References ~ ol,
+.mediawiki-excerpt h2 #References ~ table,
+.mediawiki-excerpt h2 #References ~ div,
+.mediawiki-excerpt h2 #Sources ~ ul,
+.mediawiki-excerpt h2 #Sources ~ ol,
+.mediawiki-excerpt h2 #Sources ~ table,
+.mediawiki-excerpt h2 #Sources ~ div, .mediawiki-excerpt h3 #External_links ~ ul,
+.mediawiki-excerpt h3 #External_links ~ ol,
+.mediawiki-excerpt h3 #External_links ~ table,
+.mediawiki-excerpt h3 #External_links ~ div,
+.mediawiki-excerpt h3 #Further_reading ~ ul,
+.mediawiki-excerpt h3 #Further_reading ~ ol,
+.mediawiki-excerpt h3 #Further_reading ~ table,
+.mediawiki-excerpt h3 #Further_reading ~ div,
+.mediawiki-excerpt h3 #Citations ~ ul,
+.mediawiki-excerpt h3 #Citations ~ ol,
+.mediawiki-excerpt h3 #Citations ~ table,
+.mediawiki-excerpt h3 #Citations ~ div,
+.mediawiki-excerpt h3 #References ~ ul,
+.mediawiki-excerpt h3 #References ~ ol,
+.mediawiki-excerpt h3 #References ~ table,
+.mediawiki-excerpt h3 #References ~ div,
+.mediawiki-excerpt h3 #Sources ~ ul,
+.mediawiki-excerpt h3 #Sources ~ ol,
+.mediawiki-excerpt h3 #Sources ~ table,
+.mediawiki-excerpt h3 #Sources ~ div,
+.mediawiki-container h2 #External_links ~ ul,
+.mediawiki-container h2 #External_links ~ ol,
+.mediawiki-container h2 #External_links ~ table,
+.mediawiki-container h2 #External_links ~ div,
+.mediawiki-container h2 #Further_reading ~ ul,
+.mediawiki-container h2 #Further_reading ~ ol,
+.mediawiki-container h2 #Further_reading ~ table,
+.mediawiki-container h2 #Further_reading ~ div,
+.mediawiki-container h2 #Citations ~ ul,
+.mediawiki-container h2 #Citations ~ ol,
+.mediawiki-container h2 #Citations ~ table,
+.mediawiki-container h2 #Citations ~ div,
+.mediawiki-container h2 #References ~ ul,
+.mediawiki-container h2 #References ~ ol,
+.mediawiki-container h2 #References ~ table,
+.mediawiki-container h2 #References ~ div,
+.mediawiki-container h2 #Sources ~ ul,
+.mediawiki-container h2 #Sources ~ ol,
+.mediawiki-container h2 #Sources ~ table,
+.mediawiki-container h2 #Sources ~ div,
+.mediawiki-container h3 #External_links ~ ul,
+.mediawiki-container h3 #External_links ~ ol,
+.mediawiki-container h3 #External_links ~ table,
+.mediawiki-container h3 #External_links ~ div,
+.mediawiki-container h3 #Further_reading ~ ul,
+.mediawiki-container h3 #Further_reading ~ ol,
+.mediawiki-container h3 #Further_reading ~ table,
+.mediawiki-container h3 #Further_reading ~ div,
+.mediawiki-container h3 #Citations ~ ul,
+.mediawiki-container h3 #Citations ~ ol,
+.mediawiki-container h3 #Citations ~ table,
+.mediawiki-container h3 #Citations ~ div,
+.mediawiki-container h3 #References ~ ul,
+.mediawiki-container h3 #References ~ ol,
+.mediawiki-container h3 #References ~ table,
+.mediawiki-container h3 #References ~ div,
+.mediawiki-container h3 #Sources ~ ul,
+.mediawiki-container h3 #Sources ~ ol,
+.mediawiki-container h3 #Sources ~ table,
+.mediawiki-container h3 #Sources ~ div {
+  display: none;
+}
+
+.mediawiki-excerpt .infobox,
+.mediawiki-container .infobox {
+  float: right;
+  margin-left: 15px;
+}
+
+.mediawiki-excerpt .thumb,
+.mediawiki-container .thumb {
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.mediawiki-excerpt .thumb > img,
+.mediawiki-excerpt .thumb a > img,
+.mediawiki-container .thumb > img,
+.mediawiki-container .thumb a > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mediawiki-excerpt .thumb .thumbcaption,
+.mediawiki-container .thumb .thumbcaption {
+  padding: 9px;
+  color: #333333;
+}
+
+.mediawiki-excerpt .tright,
+.mediawiki-container .tright {
+  float: right;
+  clear: right;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.mediawiki-excerpt .tleft,
+.mediawiki-container .tleft {
+  float: left;
+  clear: left;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.mediawiki-excerpt ul.gallery,
+.mediawiki-container ul.gallery {
+  display: block;
+}
+
+.mediawiki-excerpt ul.gallery li.gallerybox,
+.mediawiki-container ul.gallery li.gallerybox {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.mediawiki-excerpt .gallery-packed,
+.mediawiki-container .gallery-packed {
+  text-align: center;
+}

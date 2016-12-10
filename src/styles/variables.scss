@@ -1,13 +1,19 @@
 
-$line-height-base:        1.428571429 !default; // 20/14
-$font-size-base:          14px !default;
-$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+$body-bg: #fff !default;
+$border-radius-base: 4px !default;
+$gray-base: #000 !default;
+$gray-dark: lighten($gray-base, 20%) !default;
+$text-color: $gray-dark !default;
 
-$grid-gutter-width:         30px !default;
+$line-height-base: 1.428571429 !default; // 20/14
+$font-size-base: 14px !default;
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default; // ~20px
 
-$thumbnail-padding:           4px !default;
-$thumbnail-bg:                $body-bg !default;
-$thumbnail-border:            #ddd !default;
-$thumbnail-border-radius:     $border-radius-base !default;
-$thumbnail-caption-color:     $text-color !default;
-$thumbnail-caption-padding:   9px !default;
+$grid-gutter-width: 30px !default;
+
+$thumbnail-padding: 4px !default;
+$thumbnail-bg: $body-bg !default;
+$thumbnail-border: #ddd !default;
+$thumbnail-border-radius: $border-radius-base !default;
+$thumbnail-caption-color: $text-color !default;
+$thumbnail-caption-padding: 9px !default;
