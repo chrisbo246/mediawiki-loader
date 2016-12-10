@@ -6,6 +6,7 @@
 
 .mediawiki-excerpt a[href="#top"],
 .mediawiki-excerpt a[href*="#cite_note-"],
+.mediawiki-excerpt .reference,
 .mediawiki-excerpt .references,
 .mediawiki-excerpt .Template-Fact,
 .mediawiki-excerpt .mw-editsection,
@@ -16,6 +17,7 @@
 .mediawiki-excerpt .infobox caption,
 .mediawiki-container a[href="#top"],
 .mediawiki-container a[href*="#cite_note-"],
+.mediawiki-container .reference,
 .mediawiki-container .references,
 .mediawiki-container .Template-Fact,
 .mediawiki-container .mw-editsection,

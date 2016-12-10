@@ -52,7 +52,9 @@ If you need an excerpt on the same page without having to make a second request,
 Don't forget to insert the required mention to the Wikipedia article.
 
 ```
-<div class="mediawiki-mention"></div>
+<div class="mediawiki-mention">
+    <a href="https://en.wikipedia.org/wiki/Google" target="_blank">https://en.wikipedia.org/wiki/Google</a>
+</div>
 ```
 
 <!--
