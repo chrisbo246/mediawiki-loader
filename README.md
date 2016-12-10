@@ -24,10 +24,10 @@ bower install --save chrisbo246/mediawiki-loader
 Load the **mediawiki-loader.js** script.
 
 ```
-<script src="/bower_components/mediawiki-loader/src/scripts/mediawiki-loader.js" async></script>
+<script src="/bower_components/mediawiki-loader/src/scripts/mediawiki-loader.js"></script>
 ```
 
-If using SASS, import the **variables.scss** and **mediawiki-loader.scss** to cleanup the article.
+Import the **variables.scss** and **mediawiki-loader.scss** in your SASS file to cleanup the article of every Wikipedia annotations and make small style adjustments.
 
 ```
 @import "/bower_components/mediawiki-loader/src/styles/variables.scss";
@@ -39,7 +39,7 @@ If using SASS, import the **variables.scss** and **mediawiki-loader.scss** to cl
 Add a container with **.mediawiki-container** class and a **data-url**.
 
 ```
-<div class="mediawiki-excerpt" data-url="https://en.wikipedia.org/wiki/Google"></div>
+<div class="mediawiki-container" data-url="https://en.wikipedia.org/wiki/Google"></div>
 ```
 
 If you need an excerpt on the same page without having to make a second request, simply add a second container with a **.mediawiki-excerpt** class.
